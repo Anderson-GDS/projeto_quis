@@ -1,34 +1,34 @@
 export default [
   {
-    question: "Quanto é 1 + 2?",
+    question: "qual é o primeiro componente a ser pesquisado na hora de comprar um computador?",
     answers: [
-      { option: "3", correct: true },
-      { option: "2", correct: false },
-      { option: "4", correct: false },
+      { option: "placa mae", correct: true },
+      { option: "monitor", correct: false },
+      { option: "teclado", correct: false },
     ],
   },
   {
-    question: "Quanto é 5 x 2?",
+    question: "a placa mae é compativel com todos os modelos de processadores?",
     answers: [
-      { option: "9", correct: false },
-      { option: "10", correct: true },
-      { option: "11", correct: false },
+      { option: "sim", correct: false },
+      { option: "nao", correct: true },
+      { option: "talvez", correct: false },
     ],
   },
   {
-    question: "Quanto é 10 x 8?",
+    question: "quanto maior a geraçao do processador mais avançado ele é?",
     answers: [
-      { option: "800", correct: false },
-      { option: "90", correct: false },
-      { option: "80", correct: true },
+      { option: "nao", correct: false },
+      { option: "talvez", correct: false },
+      { option: "sim", correct: true },
     ],
   },
   {
-    question: "Quanto é 7 x 7?",
+    question: "a memoria ram gerencia as informacoes que a placa mae exige?",
     answers: [
-      { option: "70", correct: false },
-      { option: "56", correct: false },
-      { option: "49", correct: true },
+      { option: "nao", correct: false },
+      { option: "talvez", correct: false },
+      { option: "sim", correct: true },
     ],
   },
 ];
